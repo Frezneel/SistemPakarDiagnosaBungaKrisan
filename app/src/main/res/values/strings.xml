@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">SistemPakarDiagnosaBungaKrisan</string>
-    <string name="bunga">"Bunga Krisan"</string>
+    <string name="bunga">\"Bunga Krisan\"</string>
+    <string name="metode">\"METODE FORWARD CHAINING\"</string>
+    <string-array name="opsi_yn">
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
 </resources>

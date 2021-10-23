@@ -16,6 +16,22 @@
     <color name="toska_4">#137a63</color>
     <color name="toska_5">#0a3a2a</color>
     <color name="color_bt">#1D5124</color>
-    <color name="color_teks">#bdffc5</color>>
+    <color name="color_teks">#bdffc5</color>
+    <color name="color_bg_bt">#CEEDD1</color>
+    <color name="color_tx_bt">#1C4525</color>
+    <color name="red_sm">#FA6357</color>
+    <color name="yellow_sm">#FFEC39</color>
+    <color name="bg_color">#DFF6EA</color>
+    <color name="color_fnt_judul">#3E8B41</color>
+    <color name="color_subJudul">#295A2B</color>
+    <color name="color_teks_2">#1C4525</color>
+    <color name="color_bg_1">#E7F2A4</color>
+    <color name="color_teks_main_1">#3E8B41</color>
+    <color name="stroke_1">#009B06</color>
+    <color name="color_teks_main_2">#36B843</color>
+    <color name="color_teks_3">#088514</color>
+    <color name="color_bg_2">#BCEAC9</color>
+    <color name="color_teks_4">#0D4012</color>
+    <color name="bg_sub_splash2">#0D6211</color>
 
 </resources>

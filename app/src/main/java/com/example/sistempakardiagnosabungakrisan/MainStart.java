@@ -9,21 +9,23 @@ import android.widget.Button;
 
 public class MainStart extends AppCompatActivity {
 
-    Button btMulai, btRiwayat, btAbout, btExit;
+    Button btMulai, btAbout, btExit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_start);
         btMulai = findViewById(R.id.bt_mulai);
-        btRiwayat = findViewById(R.id.bt_riwayat);
         btAbout = findViewById(R.id.bt_about);
         btExit = findViewById(R.id.bt_exit);
 
-        
+        btMulai.setOnClickListener(v -> {
+            Intent main_activity = new Intent(MainStart.this, MainActivity.class);
+            startActivity(main_activity);
+        });
 
         btAbout.setOnClickListener(v -> {
-            Intent main_about = new Intent(MainActivity.this, MainAbout.class);
+            Intent main_about = new Intent(MainStart.this, MainAbout.class);
             startActivity(main_about);
         });
 

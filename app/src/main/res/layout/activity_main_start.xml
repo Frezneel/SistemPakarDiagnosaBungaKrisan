@@ -6,56 +6,58 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/pastel_1"
+    android:layout_gravity="center"
+    android:gravity="center"
     tools:context=".MainStart">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
+
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="400dp"
-            android:layout_marginBottom="-50dp"
-            android:src="@drawable/karakter"
-            />
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/karakter" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:fontFamily="@font/franklin_gothic_heavy"
             android:text="SISTEM PAKAR"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:fontFamily="@font/montrealbold"
             android:text="Diagnosa Hama dan Penyakit"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:fontFamily="@font/montrealbold"
             android:text="@string/bunga"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            />
+            android:textSize="20sp" />
 
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="12dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <Button
@@ -63,36 +65,26 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/color_bt"
-            android:text="Mulai Analisa"
-            android:textColor="@color/color_teks" />
+            android:background="@drawable/cos_btn_1"
+            android:textColor="@color/color_tx_bt"
+            android:text="Mulai Analisa" />
 
-        <Button
-            android:id="@+id/bt_riwayat"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/color_bt"
-            android:text="Riwayat Hasil"
-            android:textColor="@color/color_teks"
-            />
         <Button
             android:id="@+id/bt_about"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
-            android:backgroundTint="@color/color_bt"
-            android:text="About"
-            android:textColor="@color/color_teks"
-            />
+            android:background="@drawable/cos_btn_1"
+            android:textColor="@color/color_tx_bt"
+            android:text="About" />
+
         <Button
             android:id="@+id/bt_exit"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/color_bt"
-            android:text="Exit"
-            android:textColor="@color/color_teks"
-            />
+            android:background="@drawable/cos_btn_1"
+            android:textColor="@color/color_tx_bt"
+            android:text="Exit" />
 
     </LinearLayout>
 

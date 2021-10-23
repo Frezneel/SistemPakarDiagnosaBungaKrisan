@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "57507736866",
+    "firebase_url": "https://siskarbungakrisan-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "siskarbungakrisan",
+    "storage_bucket": "siskarbungakrisan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57507736866:android:95c45094af1ddf3036097b",
+        "android_client_info": {
+          "package_name": "com.example.sistempakardiagnosabungakrisan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "57507736866-a29vvdb0f0sh8ar0u2p068dcdfef4jlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_UpT7j-EAOD5UjnzdazC1f80ASgmY_KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "57507736866-a29vvdb0f0sh8ar0u2p068dcdfef4jlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

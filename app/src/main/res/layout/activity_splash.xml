@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context=".Splash">
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/leaf"
+        android:backgroundTint="#8BFFFFFF"
+        android:rotation="-54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22000003" />
+
+    <View
+        android:id="@+id/view6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="-50dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/leaf"
+        android:backgroundTint="#8BFFFFFF"
+        android:rotation="-54"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="-60dp"
+        android:background="@drawable/leaf"
+        android:backgroundTint="#8BFFFFFF"
+        android:rotation="120"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32999998" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="450px"
+        android:layout_height="386px"
+        android:layout_marginStart="-40dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/lined_leaves"
+        android:backgroundTint="#E1DFF6EA"
+        android:backgroundTintMode="src_atop"
+        android:rotation="0"
+        android:rotationY="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="400px"
+        android:layout_height="316px"
+        android:layout_marginEnd="-20dp"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/lined_leaves"
+        android:backgroundTint="#E1DFF6EA"
+        android:backgroundTintMode="src_atop"
+        android:rotation="-12"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.978" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="440px"
+        android:layout_height="356px"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/lined_leaves"
+        android:backgroundTint="#E1DFF6EA"
+        android:backgroundTintMode="src_atop"
+        android:rotation="-186"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/leaf"
+        android:backgroundTint="#8BFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:background="@drawable/bunga"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/montrealbold"
+        android:gravity="center"
+        android:text='\"Bunga Krisan\"'
+        android:textColor="@color/bg_sub_splash2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="164dp"
+        android:layout_height="45dp"
+        android:background="@drawable/cos_btn_2"
+        android:drawableRight="@drawable/ic_next"
+        android:drawablePadding="-20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingEnd="13dp"
+        android:shadowColor="#000000"
+        android:text="Lanjutkan"
+        android:textAlignment="center"
+        android:textColor="@color/color_teks_2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montrealbold"
+        android:gravity="center"
+        android:text="SISTEM PAKAR"
+        android:textColor="@color/color_fnt_judul"
+        android:textSize="38sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/montrealbold"
+        android:gravity="center"
+        android:text="Diagnosa Hama dan Penyakit"
+        android:textColor="@color/bg_sub_splash2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
